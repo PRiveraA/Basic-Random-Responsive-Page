@@ -14,7 +14,7 @@
 
 <body>
     <!-- 'navbar-dark' makes text lighter -->
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
         <div class="container">
             <a href="#" class="navbar-brand">The Booming Bootcamp</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
@@ -24,13 +24,13 @@
                 <!-- '.ms-auto' pushes ul to the right -->
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a href="#" class="nav-link">What am I</a>
+                        <a href="#learn" class="nav-link">What You'll Learn</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Answers</a>
+                        <a href="#questions" class="nav-link">Answers</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Instructions</a>
+                        <a href="#instructions" class="nav-link">Instructions</a>
                     </li>
                 </ul>
             </div>
@@ -156,6 +156,7 @@
         </div>
     </section>
 
+    <!-- Experience section -->
     <section id="learn" class="p-5 bg-dark text-light">
         <div class="container">
             <div class="row align-items-center justify-content-between">
@@ -181,7 +182,9 @@
             </div>
         </div>
     </section>
-    <!-- Experience section -->
+
+    <!-- Accordion -->
+    <section id="questions" class="p-5"></section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
